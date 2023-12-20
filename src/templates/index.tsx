@@ -4,9 +4,6 @@ import {
   GetPath,
   GetHeadConfig,
   HeadConfig,
-  TransformProps,
-  TemplateConfig,
-  TemplateProps,
   TemplateRenderProps,
 } from "@yext/pages";
 
@@ -47,7 +44,7 @@ const Static: Template<TemplateRenderProps> = ({
 }) => {
   return (
     <>
-      <div>Hello World</div>
+      <a href="shadcn.html">shadcn</a>
     </>
   );
 };
